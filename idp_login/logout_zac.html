@@ -1,0 +1,73 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <title>PCA Logout Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="cleartype" content="on">
+    <link rel="stylesheet" type="text/css" href="https://b05d1e320e9e0b7a2b088e4b777defcc6439f5a3-www.googledrive.com/host/0B9MTbot-1QGgZ1doVTU5eDFhY3M/idp_login/idp/login.css"/>
+     <link id="size-stylesheet" rel="stylesheet" type="text/css" href="https://b05d1e320e9e0b7a2b088e4b777defcc6439f5a3-www.googledrive.com/host/0B9MTbot-1QGgZ1doVTU5eDFhY3M/idp_login/idp/login-mobile.css"">
+ 
+	<link rel="shortcut icon" href="idp/images/favicon.ico" type="image/x-icon" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  </head>
+
+  <body id="homepage" onload="setfocus();" >
+	
+	<div id='wrapper'>
+	
+		<div id ='header'>
+		
+		
+		
+		</div>
+	  
+		<div id='photo-logout'>
+
+			
+		
+		</div>
+		
+	
+	</div>
+	<script>
+     //jquery
+    $(document).ready(function() {               
+                                            
+            function showWidth(ele, w) {
+              $("#pathTitle").text("The width for the " + ele +
+                            " is " + w + "px.");
+            }                                                             
+           
+            //showWidth("#wrapper", $("#wrapper").width());
+
+            function adjustStyle(width) {
+                width = parseInt(width);
+                if (width <= 480) {
+                    $("#size-stylesheet").attr("href", "https://b05d1e320e9e0b7a2b088e4b777defcc6439f5a3-www.googledrive.com/host/0B9MTbot-1QGgZ1doVTU5eDFhY3M/idp_login/idp/login-mobile_s.css");
+                } else if ((width >= 481) && (width < 665)) {
+                    $("#size-stylesheet").attr("href", "https://b05d1e320e9e0b7a2b088e4b777defcc6439f5a3-www.googledrive.com/host/0B9MTbot-1QGgZ1doVTU5eDFhY3M/idp_login/idp/login-mobile.css");
+                } else {
+                   $("#size-stylesheet").attr("href", "https://b05d1e320e9e0b7a2b088e4b777defcc6439f5a3-www.googledrive.com/host/0B9MTbot-1QGgZ1doVTU5eDFhY3M/idp_login/idp/login.css");
+                }
+            }
+
+                $(function() {
+                            $(window).load(function() {
+                                            adjustStyle($(this).width());
+                            });
+                $(window).resize(function() {
+                    adjustStyle($(this).width());
+                });
+            });
+ 
+        });
+     function setfocus() {
+                document.getElementById("username").focus();
+                }
+     </script>
+	</script>
+  </body>
+</html>

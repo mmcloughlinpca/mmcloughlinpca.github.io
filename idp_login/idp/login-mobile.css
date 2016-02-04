@@ -1,0 +1,211 @@
+body {
+font: 1.1em arial, verdana, sans-serif;
+color: black;
+background: white;
+text-align: center;
+z-index: -1;
+}
+
+#wrapper {
+width: 100%;
+padding: 0;
+margin: 0 auto;
+text-align: left;
+font-size: 1.1em;
+background: white
+z-index: 2;
+}
+
+
+#header {
+position: relative;
+width: 100%;
+height: 0px;
+margin-bottom:0px;
+}
+
+#photo {
+position: relative;
+
+width: 100%;
+height: 494px;
+
+overflow: hidden;
+background: url(https://b05d1e320e9e0b7a2b088e4b777defcc6439f5a3-www.googledrive.com/host/0B9MTbot-1QGgZ1doVTU5eDFhY3M/idp_login/idp/images/Log-in-Page-design-v2-2-without-boxes-no-text-w470.png) no-repeat center; 
+
+}
+
+#photo-logout {
+position: relative;
+
+width: 100%;
+height: 494px;
+
+overflow: hidden;
+background: url(https://b05d1e320e9e0b7a2b088e4b777defcc6439f5a3-www.googledrive.com/host/0B9MTbot-1QGgZ1doVTU5eDFhY3M/idp_login/idp/images/lop_r_mo_jpg80.jpg) no-repeat center; 
+
+}
+
+img { max-width: 100%; } 
+
+table {
+color: white;
+font: 1.1em arial, verdana, sans-serif;
+}
+
+#button {
+padding:6px;
+}
+
+div.loginbox {
+    /*background-color: #FFFFFF;*/
+    position: relative;
+    /*width: 840px;*/
+    /*height: 300px;*/
+	color: white;
+}
+
+div.leftpane {
+    /*border: 2px #A40000 solid;*/
+    position: absolute;
+    /*top: 10px;*/
+    left: 10px;
+    /*width: 47%;*/
+    height: 90%;
+	color: white;
+}
+
+div.loginbox div.rightpane {
+	border: 2px #A40000 solid;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    /*width: 47%;*/
+    height: 90%;
+    overflow: hidden;
+    text-align: center;
+}
+
+div.loginbox div.content{
+    padding-top: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin:auto;
+}
+
+div.loginbox #splogo{
+}
+
+
+div.loginbox #clippedsplogoX {
+    /*width: 350px;*/
+}
+
+div.loginbox #clippedsplogoY {
+    height: 147px;
+}
+
+div.loginbox #spName{
+    padding-top:5px;
+    padding-bottom:5px;
+    font-size:1.2em;
+}
+
+div.loginbox #spDescription{
+    padding-top:15px;
+    text-align:left;
+}
+
+
+#login-table {
+    left: 60%;
+    top: 120px;
+    position: relative;
+    
+}
+
+label {
+    
+    font-size: smaller;
+}
+
+
+
+
+#username, #password {
+    height:25px;  
+
+}
+
+.button-standard {
+    /*background-color: darkgray;*/
+    text-align: left;
+  -webkit-appearance: none;
+  -moz-background-clip: padding;
+  -o-background-clip: padding-box;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+  background-color: #231f20;
+  border: 0px solid;
+  cursor: pointer;
+  color: #fff;
+  display: inline-block;
+  font-family: 'Circular Book', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  outline: 0;
+  overflow: visible;
+  margin: 0;
+  padding: 10px 14px;
+  padding-right: 45px;
+  text-decoration: none;
+  vertical-align: top;
+  width: auto;
+  -moz-transition: all 0.12s ease-in-out;
+  -o-transition: all 0.12s ease-in-out;
+  -webkit-transition: all 0.12s ease-in-out;
+  transition: all 0.12s ease-in-out;
+  border: 1px solid #231f20;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+
+.button-reversed {
+    /*background-color: darkgray;*/
+    text-align: left;
+  -webkit-appearance: none;
+  -moz-background-clip: padding;
+  -o-background-clip: padding-box;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+  background-color: #fff;
+  border: 0px solid;
+  cursor: pointer;
+  color: #231f20;
+  display: inline-block;
+  font-family: 'Circular Book', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  outline: 0;
+  overflow: visible;
+  margin: 0;
+  padding: 10px 14px;
+  padding-right: 45px;
+  text-decoration: none;
+  vertical-align: top;
+  width: auto;
+  -moz-transition: all 0.12s ease-in-out;
+  -o-transition: all 0.12s ease-in-out;
+  -webkit-transition: all 0.12s ease-in-out;
+  transition: all 0.12s ease-in-out;
+  border: 1px solid #231f20;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,126 @@
+
+#wrapper {
+width: 100%;
+padding: 0;
+margin: 0 auto;
+text-align: left;
+font-size: 1.1em;
+background: white
+z-index: 2;
+}
+
+
+#header {
+position: relative;
+width: 100%;
+height: 0px;
+margin-bottom:0px;
+}
+
+
+
+img { max-width: 100%; } 
+
+table {
+color: white;
+font: 1.1em arial, verdana, sans-serif;
+}
+
+#button {
+padding:6px;
+}
+
+div.loginbox {
+    /*background-color: #FFFFFF;*/
+    position: relative;
+    /*width: 840px;*/
+    /*height: 300px;*/
+	color: white;
+}
+
+div.leftpane {
+    /*border: 2px #A40000 solid;*/
+    position: absolute;
+    /*top: 10px;*/
+    left: 10px;
+    /*width: 47%;*/
+    height: 90%;
+	color: white;
+}
+
+div.loginbox div.rightpane {
+	border: 2px #A40000 solid;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    /*width: 47%;*/
+    height: 90%;
+    overflow: hidden;
+    text-align: center;
+}
+
+div.loginbox div.content{
+    padding-top: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin:auto;
+}
+
+div.loginbox #splogo{
+}
+
+
+div.loginbox #clippedsplogoX {
+    /*width: 350px;*/
+}
+
+div.loginbox #clippedsplogoY {
+    height: 147px;
+}
+
+div.loginbox #spName{
+    padding-top:5px;
+    padding-bottom:5px;
+    font-size:1.2em;
+}
+
+div.loginbox #spDescription{
+    padding-top:15px;
+    text-align:left;
+}
+
+
+#button {
+    background-color: darkgray;
+}
+
+
+
+#photo {
+    background: url(https://b05d1e320e9e0b7a2b088e4b777defcc6439f5a3-www.googledrive.com/host/0B9MTbot-1QGgZ1doVTU5eDFhY3M/idp_login/idp/images/lipwtf_r_small_jpg80.jpg) no-repeat center; 
+    width:100%;
+}
+
+#photo-logout {
+        
+background: url(https://b05d1e320e9e0b7a2b088e4b777defcc6439f5a3-www.googledrive.com/host/0B9MTbot-1QGgZ1doVTU5eDFhY3M/idp_login/idp/images/lop_r_ip_jpg80.jpg) no-repeat center; 
+width:100%;
+}
+
+#login-table {
+    left: 40%;
+    top: 120px;
+    position: relative;
+    }
+
+#username, #password {
+    height:25px;  
+
+}
+
+
+
+
+
+
+
