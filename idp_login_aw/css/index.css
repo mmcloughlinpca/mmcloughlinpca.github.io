@@ -188,7 +188,8 @@ body
 	#u22629
 	{
 		min-height: 59px;
-		margin-top: 95px;
+		/* margin-top: 95px;*/
+		margin-top: 15px; /* MJM adjust */
 		width: 16.56%;
 	}
 
