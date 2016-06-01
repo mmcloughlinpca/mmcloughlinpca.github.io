@@ -24,9 +24,41 @@
     outline: 0;
     overflow: visible;
     margin: 0;
-    padding: 10px 14px;
+    /*padding: 10px 14px;*/
     padding-right: 45px;
     text-decoration: none;
+    vertical-align: top;
+    width: auto;
+    -moz-transition: all 0.12s ease-in-out;
+    -o-transition: all 0.12s ease-in-out;
+    -webkit-transition: all 0.12s ease-in-out;
+    transition: all 0.12s ease-in-out;
+    border: 1px solid #231f20;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+	padding: 6px;
+}
+
+.intro-text {
+    /* background-color: darkgray; */
+    text-align: left;
+    -webkit-appearance: none;
+    -moz-background-clip: padding;
+    -o-background-clip: padding-box;
+    -webkit-background-clip: padding;
+    background-clip: padding-box;
+   border: 0px solid;
+    cursor: pointer;
+    color: #fff;
+    display: inline-block;
+    font-family: 'Circular Book', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    outline: 0;
+    overflow: visible;
+    margin: 0;
+    /*padding: 10px 14px;*/
+     text-decoration: none;
     vertical-align: top;
     width: auto;
     -moz-transition: all 0.12s ease-in-out;
