@@ -358,7 +358,8 @@ body
 	{
 		padding-bottom: 0px;
 		margin-top: 105px;
-		width: 58.6%;
+		/*width: 58.6%;*/
+		width: 100.00%;/* MJM adjust for text*/
 		margin-left: 32.2%;
 	}
 
