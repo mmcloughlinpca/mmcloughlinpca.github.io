@@ -39,7 +39,7 @@
 	padding: 6px;
 }
 
-.intro-text {
+#intro-text {
     /* background-color: darkgray; */
     text-align: left;
     -webkit-appearance: none;
