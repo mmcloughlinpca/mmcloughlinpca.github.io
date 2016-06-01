@@ -360,7 +360,8 @@ body
 		margin-top: 105px;
 		/*width: 58.6%;*/
 		width: 100.00%;/* MJM adjust for text*/
-		margin-left: 32.2%;
+		/*margin-left: 32.2%;*/
+		margin-left: 10.0%;/* MJM adjust for text*/
 	}
 
 	#u21899-6
@@ -371,8 +372,10 @@ body
 	#u22629
 	{
 		min-height: 84px;
-		margin-top: 31px;
-		width: 31.06%;
+		/*margin-top: 31px;*/
+		margin-top: 25%;/*MJM adjust to clear logo */
+		/*width: 31.06%;*/
+		width: 70.0%;/* MJM adjust for text*/
 	}
 
 }
