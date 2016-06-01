@@ -271,7 +271,8 @@ body
 	{
 		min-height: 84px;
 		margin-top: 33px;
-		width: 23.49%;
+		/*width: 23.49%;*/
+		width: 70.00%;  /* MJM adjust for text */
 	}
 
 }
