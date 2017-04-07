@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
-<ModulePrefs title="Url Redirector Modified"
+<ModulePrefs title="st_redir"
              author=""
              author_email=""
              author_affiliation=""
@@ -34,7 +34,7 @@
     </div>
     
     <div id="progressbar___MODULE_ID__">
-        <div id="progress___MODULE_ID__" style="background-color:blue;height:10px;width:100%"></div>
+        <div id="progress___MODULE_ID__" style="background-color:#036;height:10px;width:100%"></div>
     </div>
     <div style="text-align:right"><a id="ctlStop___MODULE_ID__" href="#">stop</a></div>
 </div>
