@@ -1,4 +1,4 @@
-Module>
+<Module>
 <ModulePrefs title="Url Redirector Modified" author="" author_email="" author_affiliation="" author_location="" screenshot="" thumbnail="" category="" description="Redirect to a web" render_inline="optional"/>
 <UserPref name="pageurl" display_name="PageTo" default_value="#"/>
 <UserPref name="timeout" display_name="Timeout" default_value="10"/>
